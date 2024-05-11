@@ -67,18 +67,18 @@ O kernel é a matriz que define a transformação a ser aplicada, enquanto a con
 #### 2.1 - Kernel Gaussiano
 Este filtro é frequentemente usado para suavizar imagens, reduzindo o ruído e as transições bruscas de intensidade.
 
-*double[] kernelGaussiano = { 0.0625, 0.125, 0.0625, 0.125, 0.25, 0.125, 0.0625, 0.125, 0.0625 };*
+{ 0.0625, 0.125, 0.0625, 0.125, 0.25, 0.125, 0.0625, 0.125, 0.0625 }
 
 #### 2.2 - Kernel de Sobel (Horizontal e Vertical)
 Estes filtros são comumente usados para detecção de bordas em imagens.
 
-*int[] horizontal = { -1, -2, -1, 0, 0, 0, 1, 2, 1 };*
-*int[] vertical = { -1, 0, 1, -2, 0, 2, -1, 0, 1 };*
+horizontal → { -1, -2, -1, 0, 0, 0, 1, 2, 1 }
+vertical → { -1, 0, 1, -2, 0, 2, -1, 0, 1 }
 
 #### 2.3 - Kernel de Laplaciano
 Este filtro é usado para detectar mudanças de intensidade em uma imagem, realçando áreas de alta frequência.
 
-*int[] laplaciano = { 0, -1, 0, -1, 4, -1, 0, -1, 0 };*
+{ 0, -1, 0, -1, 4, -1, 0, -1, 0 }
 
 ### 3 - Média da Vizinhança
 A média da vizinhança de um pixel é calculada como a média dos valores de intensidade dos pixels ao redor dele.
