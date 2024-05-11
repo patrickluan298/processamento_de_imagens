@@ -18,8 +18,8 @@ public class OperacoesPontuais {
     public static BufferedImage bandaRed(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -37,8 +37,8 @@ public class OperacoesPontuais {
     public static BufferedImage bandaGreen(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -56,8 +56,8 @@ public class OperacoesPontuais {
     public static BufferedImage bandaBlue(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -75,8 +75,8 @@ public class OperacoesPontuais {
     public static BufferedImage negativo(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -96,8 +96,8 @@ public class OperacoesPontuais {
     public static BufferedImage greyScaleRed(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -115,8 +115,8 @@ public class OperacoesPontuais {
     public static BufferedImage greyScaleGreen(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -134,8 +134,8 @@ public class OperacoesPontuais {
     public static BufferedImage greyScaleBlue(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -153,8 +153,8 @@ public class OperacoesPontuais {
     public static BufferedImage greyScaleMedia(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -175,8 +175,8 @@ public class OperacoesPontuais {
     public static BufferedImage binarizacao(BufferedImage imgEntrada, int limiar) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -204,8 +204,8 @@ public class OperacoesPontuais {
 
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -233,8 +233,8 @@ public class OperacoesPontuais {
 
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -259,8 +259,8 @@ public class OperacoesPontuais {
 
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -285,8 +285,8 @@ public class OperacoesPontuais {
 
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -306,8 +306,8 @@ public class OperacoesPontuais {
 
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -326,8 +326,8 @@ public class OperacoesPontuais {
     public static BufferedImage negativoY(BufferedImage imgEntrada) {
         int altura = imgEntrada.getHeight();
         int largura = imgEntrada.getWidth();
-
         BufferedImage imgSaida = new BufferedImage(largura, altura, imgEntrada.getType());
+
         for (int h = 0; h < altura; h++) {
             for (int w = 0; w < largura; w++) {
                 int rgb = imgEntrada.getRGB(w, h);
@@ -377,18 +377,10 @@ public class OperacoesPontuais {
     }
 
     private static int validaLimiteCor(int banda) {
-        if (banda > 255)
-            banda = 255;
-        else if (banda < 0)
-            banda = 0;
-        return banda;
+        return Math.min(255, Math.max(0, banda));
     }
 
     private static int validaLimiteCor(double banda) {
-        if (banda > 255)
-            banda = 255;
-        else if (banda < 0)
-            banda = 0;
-        return (int) banda;
+        return (int) Math.min(255, Math.max(0, banda));
     }
 }
