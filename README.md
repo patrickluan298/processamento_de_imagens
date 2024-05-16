@@ -12,7 +12,7 @@ Cada filtro é um método que pode ser utilizado da seguinte forma:
 
 ## Exemplo visual dos filtros
 
-![Pikachu com filtros](./imagens/pikachu_filtros.png)
+<img src="./imagens/pikachu_filtros.png" alt="Pikachu com filtros">
 
 ## Operações Pontuais
 
