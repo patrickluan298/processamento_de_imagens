@@ -10,6 +10,10 @@ Cada filtro é um método que pode ser utilizado da seguinte forma:
 2. Chame o método do filtro desejado, passando a imagem como parâmetro.
 3. Receba a nova imagem como resultado do método.
 
+## Exemplo visual dos filtros
+
+![Pikachu com filtros](./imagens/pikachu_filtros.png)
+
 ## Operações Pontuais
 
 ### 1 - Sistemas de Cores RGB e YIQ

@@ -21,7 +21,7 @@ public class Main {
                 OperacoesPontuais.greyScaleGreen(imagem),
                 OperacoesPontuais.greyScaleBlue(imagem),
                 OperacoesPontuais.greyScaleMedia(imagem),
-                OperacoesPontuais.binarizacao(imagem, 100),
+                OperacoesPontuais.binarizacao(imagem, 140),
                 OperacoesPontuais.alteraTonalidade(imagem, "green", -100),
                 OperacoesPontuais.brilhoAditivo(imagem, 50),
                 OperacoesPontuais.brilhoMultiplicativo(imagem, 0.5f),
@@ -29,13 +29,13 @@ public class Main {
                 OperacoesPontuais.brilhoMultiplicativoY(imagem, 0.5f),
                 OperacoesPontuais.negativoY(imagem),
 
-                OperacoesLocais.mediaVizinhanca(imagem, 7),
-                OperacoesLocais.medianaVizinhanca(imagem, 7),
-                OperacoesLocais.convolucao(imagem, kernelGaussiano, 7),
-                OperacoesLocais.convolucao(imagem, horizontal, 7),
-                OperacoesLocais.convolucao(imagem, vertical, 7),
-                OperacoesLocais.convolucao(imagem, linhaOeste, 7),
-                OperacoesLocais.convolucao(imagem, laplaciano, 7)
+                OperacoesLocais.mediaVizinhanca(imagem, 3),
+                OperacoesLocais.medianaVizinhanca(imagem, 3),
+                OperacoesLocais.convolucao(imagem, kernelGaussiano, 3),
+                OperacoesLocais.convolucao(imagem, horizontal, 3),
+                OperacoesLocais.convolucao(imagem, vertical, 3),
+                OperacoesLocais.convolucao(imagem, linhaOeste, 3),
+                OperacoesLocais.convolucao(imagem, laplaciano, 3)
         );
     }
 }
